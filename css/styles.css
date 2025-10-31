@@ -1,0 +1,366 @@
+/* 
+ css/styles.css 
+ Student Name: sewar zahi  yaseen
+ Student Id: 12427782
+*/
+
+:root {
+    --bg: #faf7f2;
+    --text: hwb(0 12% 88%);
+    --muted: #6b6b6b;
+    --brand: #216869;
+    --brand-2: #49a078;
+    --card: #ffffff;
+    --border: #e9e3db;
+}
+body {
+    margin: 0;
+    font-family: "Rubik", sans-serif, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+    color: var(--text);
+    background: var(--bg);
+    line-height: 1.6;
+}
+
+.site-header{
+background-color: #f7f7fb;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px 40px;
+}
+.site-header h1 {
+color:#216869;
+margin:0;
+}
+.site-header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+.site-header nav a{
+    text-decoration: none;
+    color: #216869;
+    font-size: 20px;
+}
+.site-header nav a:hover{
+    color:#49a078;
+}
+.hero{
+   position: relative;
+   text-align: center;
+    color: white;
+}  
+.logo{
+    width: 100%;
+    height: 550px;
+
+}
+.bottom-header{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.circle{
+     display: inline-block;
+  padding: 5px 20px;
+   background-color:#49a078;
+   color:black;
+   border-radius: 30px;
+   line-height: 1.2;
+   font-size: 14px;
+   width: 35%;
+   margin: 0 auto;
+
+}
+.h3{
+    font-size: 50px;
+}
+.bottom-header p, .bottom-header h1{
+    margin: 10px 0;
+}
+.button{
+  padding: 12px 30px;
+   background-color:#216869;
+   color:white;
+   border-radius: 50px;
+   text-decoration: none;
+
+}
+.button:hover{
+    background-color: #6b6b6b;
+  
+}
+.box{
+    display:flex;
+    justify-content:center;
+    gap:10px
+
+}
+.card-box1{
+    width: 35%;
+    height: 300px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) ;
+    padding: 10px 25px;
+    margin: 45px 0 0 9px;
+    
+    
+}
+.light-text{
+    color:#828282;
+    font-weight: 400;
+   padding-right: 15px;
+   
+}
+.tags{
+    display: flex;
+    gap: 10px;
+}
+.tags span{
+    background-color: white;
+    padding: 8px 15px;
+    border-radius: 30px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+}
+.h1{
+    padding: 70px  15px 0 170px;
+}
+.container1{
+    display: flex;
+    justify-content :center;
+    gap:5px;
+    padding: 20px;
+}
+.card-box2{
+     background-color: #ffffff; 
+    border-radius: 10px;
+    padding:15px 20px ;
+    width: 23.5%;
+    height:350px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin:45px 5px 5px 9px ;
+   margin-top: -20px;
+}
+.light-text1{
+    color:#828282;
+    font-weight: 400;
+    padding-right: 15px;
+    line-height: 0.1;
+}
+.left-text{
+  margin-left:  170px ;
+  margin-top: -30px;
+}
+.card-box2 h3{
+    margin-bottom: 10px;
+}
+.card-box2 p{
+    font-size: 14px;
+    margin: 8px 0;
+}
+.price{
+    float: right;
+    font-weight: bold;
+    color: #054b0c;
+}
+.item{
+    border-bottom: 1px dashed #e0dada;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+   
+  
+}
+
+.info-container{
+    display: flex;
+    justify-content: center;
+    gap:5px;
+    margin-top: 40px;
+}
+.card-box3{
+    width: 35.5%;
+    height: 290px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) ;
+    align-items: center;
+    padding: 10px 25px;
+    margin: 90px 0 0 19px;
+    
+}
+.item1{
+    border-bottom: 1px dashed #e0dada;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+    line-height: 0.1;
+}
+.time{
+     float: right;
+    font-weight: bold;
+    color: #747775;
+}
+.node{
+    color:#49a078;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    gap:5px;
+    flex-direction: row;
+}
+.card-box4{
+    width: 35%;
+    height: 200px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) ;
+    align-items: center;
+    padding: 10px 25px ;
+    margin: 100px 0 0 9px;
+    
+}
+.img{
+    width: 38%;
+    height: 220px;
+    border-radius: 8px;
+    margin-left: 25px ;
+    margin-top: 100px;
+}
+.line{
+    width: 100%;
+    height: 0.9px;
+    background-color:#d7d2d2;
+    margin-top: 50px;
+}
+footer{
+   text-align: center;
+   font-size: 14px;
+   padding: 13px 0;
+   bottom: 0;
+   width: 100%;
+}
+.end{
+     text-decoration: none;
+     font-size: 16px;
+     color:#216869;
+}
+
+
+@media (max-width: 576px) {
+  
+  body {
+    font-size: 14px;
+    background-color: #faf7f2;
+    margin: 0;
+    padding: 0;
+  }
+
+  
+  .site-header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+  }
+
+  .site-header h1 {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+
+  .site-header nav ul {
+    flex-direction: column;
+    gap: 10px;
+    padding: 0;
+  }
+
+  .site-header nav a {
+    font-size: 16px;
+  }
+
+  
+  .hero {
+    position: relative;
+    overflow: visible;
+  }
+
+  .hero .logo {
+    width: 100%;
+    height: auto;
+    min-height: 350px; 
+    object-fit: cover;
+  }
+
+  .bottom-header {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    text-align: center;
+  }
+
+  .circle {
+    display: inline-block;
+    background-color: #49a078;
+    color: black;
+    border-radius: 30px;
+    font-size: 13px;
+    padding: 6px 14px;
+    width: auto;
+  }
+
+  .h3 {
+    font-size: 26px;
+  }
+
+  .bottom-header p {
+    font-size: 14px;
+  }
+
+  .button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+
+  
+  .box,
+  .container1,
+  .info-container,
+  .info {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card-box1,
+  .card-box2,
+  .card-box3,
+  .card-box4 {
+    width: 90%;
+    height: auto;
+    margin: 15px 0;
+  }
+
+  .img {
+    width: 90%;
+    height: auto;
+    margin: 20px 0;
+  }
+
+  .h1 {
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  .left-text {
+    margin: 0;
+    text-align: center;
+  }
+}
